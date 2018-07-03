@@ -135,7 +135,7 @@ h2 {
 .body-about {
     height: 600px;
     background-color: rgb(246,248,249);
-    background-image: url("/images/desk-planner.jpg");
+    background-image: url("images/desk-planner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -169,7 +169,7 @@ h2 {
 .body-folio {
     height: 600px;
     background-color: rgb(255,255,255);
-    background-image: url("/images/imac.jpg");
+    background-image: url("images/imac.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -210,7 +210,7 @@ h2 {
 .body-contact {
     height: 600px;
     background-color: rgb(255,255,255);
-    background-image: url("/images/notepad.png");
+    background-image: url("images/notepad.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
