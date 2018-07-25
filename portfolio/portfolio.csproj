@@ -41,33 +41,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
-    <Content Include="Global.asax" />
     <Content Include="index.html" />
-    <Content Include="style.css" />
     <Content Include="javascript.js" />
-    <Content Include="about.html" />
-    <Content Include="portfolio.html" />
-    <Content Include="contact.html" />
-    <Content Include="images\github_128.png" />
-    <Content Include="images\TuscanyVilla.png" />
-    <Content Include="images\instagram_128.png" />
-    <Content Include="images\linkedin_128.png" />
-    <Content Include="images\google_128.png" />
-    <Content Include="images\desk-planner.jpg" />
-    <Content Include="images\IMG_1613.jpg" />
-    <Content Include="images\desk-setup.jpg" />
-    <Content Include="images\notepad.png" />
-    <Content Include="images\VPShelter.png" />
-    <Content Include="images\imac.jpg" />
-    <Content Include="images\Portfolio.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\" />
+    <Content Include="jquery-3.3.1.min.js" />
+    <Content Include="layout.css" />
+    <Content Include="name-blk.png" />
+    <Content Include="name.png" />
+    <Content Include="notebook.jpg" />
+    <Content Include="Portfolio.png" />
+    <Content Include="round-logo-blk.png" />
+    <Content Include="style.css" />
+    <Content Include="TuscanyVilla.png" />
+    <Content Include="typing.jpg" />
+    <Content Include="unsplash.jpg" />
+    <Content Include="VPShelter.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
