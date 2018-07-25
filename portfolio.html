@@ -1,134 +1,0 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500" rel="stylesheet">
-    <link href="style.css" rel="stylesheet" />
-    <title>portfolio</title>
-</head>
-<body class="body-folio">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <div class="hz-nav header">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <!--<li><a href="testimonials.html">Testimonials</a></li>-->
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <!--<li><a href="inspiration.html">Inspiration</a></li>-->
-                        <!--<li><a href="gallery.html">Gallery</a></li>-->
-                        <!--<li><a href="resume.html">Resume</a></li>-->
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row main-folio">
-            <div class="col-3 col-folio">
-            </div>
-            <div class="col-6 col-folio">
-                <div class="carousel">
-                    <ul class="slides">
-                        <input type="radio" name="radio-btn" id="img-1" checked />
-                        <li class="slide-container">
-                            <div class="slide">
-                                <div class="projects projectOne" onmouseover="ShowHide('tailOne')" onmouseout="ShowHide('tailOne')">
-                                    <div id="orig-one">
-                                        <a href="http://courtneysciarrillo.github.io" target="_blank">
-                                            <img style="width:100%;height:auto;position:relative;border-radius:8px;" src="/images/Portfolio.png" onmouseover="SwapDivsWithMouseOver('orig-one','swap-one')" />
-                                        </a>
-                                    </div>
-                                    <div style="display:none" id="swap-one">
-                                        <a href="http://courtneysciarrillo.github.io" target="_blank">
-                                            <img style="width:100%;height:auto;position:relative;border-radius:8px;" src="/images/Portfolio.png" onmouseout="SwapDivsWithMouseOver('orig-one','swap-one')" />
-                                        </a>
-                                    </div>
-                                    <div class="tail" id="tailOne" style="display:none">
-                                    Portfolio. Skills Used:
-                                        <ul>
-                                        <li>HTML5</li>
-                                        <li>CSS3 Styling</li>
-                                        <li>Bootstrap</li>
-                                        <li>Flex Box</li>
-                                        <li>JavaScript</li>
-                                        </ul>
-
-                                        Click to see more!
-                                    </div>
-                                </div>
-                            </div>                             <div class="nav">                                 <label for="img-3" class="prev"> <i class="left"></i> </label>                                 <label for="img-2" class="next"> <i class="right"></i> </label>                             </div>
-                        </li>
-                        <input type="radio" name="radio-btn" id="img-2" />
-                        <li class="slide-container">
-                            <div class="slide">
-                                <div class="projects projectTwo" onmouseover="ShowHide('tailTwo')" onmouseout="ShowHide('tailTwo')">
-                                    <div id="orig-two">
-                                        <a href="https://github.com/courtneysciarrillo/TuscanyVilla/" target="_blank">
-                                            <img style="width:100%;height:auto;position:relative;border-radius:8px;" src="/images/TuscanyVilla.png" onmouseover="SwapDivsWithMouseOver('orig-two','swap-two')" />
-                                        </a>
-                                    </div>
-                                    <div style="display:none" id="swap-two">
-                                        <a href="https://github.com/courtneysciarrillo/TuscanyVilla/" target="_blank">
-                                            <img style="width:100%;height:auto;position:relative;border-radius:8px;" src="https://media.giphy.com/media/pcJmm9ol4i1qz2M3pb/giphy.gif" onmouseout="SwapDivsWithMouseOver('orig-two','swap-two')" />
-                                        </a>
-                                    </div>
-                                    <div class="tail" id="tailTwo" style="display:none">
-                                    Tuscany Villa. Skills Used:
-                                        <ul>
-                                        <li>HTML5</li>
-                                        <li>CSS3 Styling</li>
-                                        <li>CSS Grid</li>
-                                        <li>Flex Box</li>
-                                        </ul>
-
-                                        Click to see more!
-                                    </div>
-                                </div>
-                            </div>                             <div class="nav">                                 <label for="img-1" class="prev"> <i class="left"></i> </label>                                 <label for="img-3" class="next"> <i class="right"></i> </label>                             </div>
-                        </li>
-                        <input type="radio" name="radio-btn" id="img-3" />
-                        <li class="slide-container">
-                            <div class="slide">
-                                <div class="projects projectThree" onmouseover="ShowHide('tailThree')" onmouseout="ShowHide('tailThree')">
-                                    <div id="orig-three">
-                                        <a href="https://github.com/courtneysciarrillo/VPShelter/" target="_blank">
-                                            <img style="width:100%;height:auto;position:relative;border-radius:8px;" src="/images/VPShelter.png" onmouseover="SwapDivsWithMouseOver('orig-three','swap-three')" />
-                                        </a>
-                                    </div>
-                                    <div style="display:none" id="swap-three">
-                                        <a href="https://github.com/courtneysciarrillo/VPShelter/" target="_blank">
-                                            <img style="width:100%;height:auto;position:relative;border-radius:8px;" src="/images/VPShelter.png" onmouseout="SwapDivsWithMouseOver('orig-three','swap-three')" />
-                                        </a>
-                                    </div>
-                                    <div class="tail" id="tailThree" style="display:none">
-                                    Virtual Pet Shelter. Skills Used:
-                                        <ul>
-                                        <li>C#</li>
-                                        <li>Loops</li>
-                                        <li>Lists</li>
-                                        <li>Methods</li>
-                                        <li>OOP</li>
-                                        </ul>
-
-                                        Click to see more!
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="nav">                                 <label for="img-2" class="prev"> <i class="left"></i> </label>                                 <label for="img-1" class="next"> <i class="right"></i> </label>                             </div>
-                        </li>
-                        <li class="nav-dots">                             <label for="img-1" class="nav-dot" id="img-dot-1"></label>                             <label for="img-2" class="nav-dot" id="img-dot-2"></label>                             <label for="img-3" class="nav-dot" id="img-dot-3"></label>                         </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-3">
-            </div>
-        </div>
-    </div>
-    <script src="javascript.js"></script>
-</body>
-</html>
