@@ -52,8 +52,8 @@
     <Content Include="style.css" />
     <Content Include="TuscanyVilla.png" />
     <Content Include="typing.jpg" />
-    <Content Include="unsplash.jpg" />
     <Content Include="VPShelter.png" />
+    <Content Include="index.html" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
