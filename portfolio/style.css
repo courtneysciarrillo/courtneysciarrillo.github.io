@@ -104,26 +104,4 @@ i {
     font-size: 22px;
 }
 
-@media (min-width: 751px) {
 
-    .text-block {
-        width: 364px;
-    }
-}
-
-/*-- End Desktop Styling --*/
-
-/*-- Begin Mobile Styling --*/
-
-@media (max-width: 750px) {
-
-    .content-area {
-        padding: 20px;
-    }
-
-    .text-block {
-        width: 80%;
-    }
-}
-
-/*-- End Mobile Styling --*/
