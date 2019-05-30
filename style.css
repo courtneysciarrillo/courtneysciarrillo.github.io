@@ -1,23 +1,23 @@
-﻿
-/*-- Begin Site Styling --*/
-
-html, body {
+﻿html, body {
     height: 100%;
 }
 
 body {
     height: 100%;
     margin: 0;
-    padding: 0;
     color: #212121;
-}
-
-.container {
-    height: 100%;
     background-image: url(plant.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.container {
+    height: 100%;
+}
+
+.row {
+    height: 100%;
 }
 
 .content-area {
@@ -33,7 +33,7 @@ body {
     padding: 50px;
     text-align: center;
     margin: 10px;
-    width: 364px;
+    /*width: 77.7778%;*/
 }
 
 h1 {
@@ -104,4 +104,43 @@ i {
     font-size: 22px;
 }
 
-/*-- End Site Styling --*/
+
+/*@media only screen and (max-width: 600px) {
+     Extra small devices (phones, 600px and down) 
+
+    .text-block {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+     Small devices (portrait tablets and large phones, 600px and up) 
+
+    .text-block {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+     Medium devices (landscape tablets, 768px and up) 
+
+    .text-block {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+     Large devices (laptops/desktops, 992px and up) 
+
+    .text-block {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+     Extra large devices (large laptops and desktops, 1200px and up) 
+
+    .text-block {
+        width: 30%;
+    }
+}*/

@@ -45,6 +45,9 @@
     <Content Include="index.html" />
     <Content Include="chair.jpg" />
     <Content Include="plant.jpg" />
+    <Content Include="bootstrap.min.css" />
+    <Content Include="jquery-3.3.1.min.js" />
+    <Content Include="bootstrap.min.js" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
