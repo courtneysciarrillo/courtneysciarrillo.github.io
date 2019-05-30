@@ -1,5 +1,5 @@
 ﻿
-/*-- Begin Site Styling --*/
+/*-- Begin Desktop Styling --*/
 
 html, body {
     height: 100%;
@@ -104,4 +104,26 @@ i {
     font-size: 22px;
 }
 
-/*-- End Site Styling --*/
+@media (min-width: 751px) {
+
+    .text-block {
+        width: 364px;
+    }
+}
+
+/*-- End Desktop Styling --*/
+
+/*-- Begin Mobile Styling --*/
+
+@media (max-width: 750px) {
+
+    .content-area {
+        padding: 20px;
+    }
+
+    .text-block {
+        width: 80%;
+    }
+}
+
+/*-- End Mobile Styling --*/
