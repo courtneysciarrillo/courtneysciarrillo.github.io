@@ -41,19 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
-    <Content Include="javascript.js" />
-    <Content Include="jquery-3.3.1.min.js" />
-    <Content Include="layout.css" />
-    <Content Include="name-blk.png" />
-    <Content Include="name.png" />
-    <Content Include="notebook.jpg" />
-    <Content Include="Portfolio.png" />
-    <Content Include="round-logo-blk.png" />
     <Content Include="style.css" />
-    <Content Include="TuscanyVilla.png" />
-    <Content Include="typing.jpg" />
-    <Content Include="VPShelter.png" />
     <Content Include="index.html" />
+    <Content Include="chair.jpg" />
+    <Content Include="plant.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
