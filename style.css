@@ -1,0 +1,107 @@
+﻿
+/*-- Begin Site Styling --*/
+
+html, body {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #212121;
+}
+
+.container {
+    height: 100%;
+    background-image: url(plant.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-area {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-block {
+    background-color: rgba(255, 255, 255, 0.97);
+    padding: 50px;
+    text-align: center;
+    margin: 10px;
+    width: 364px;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-transform: lowercase;
+    letter-spacing: .1em;
+    line-height: 1.45em;
+}
+
+h2 {
+    font-size: 14px;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    line-height: 1.45em;
+}
+
+h3 {
+    font-size: 12px;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    line-height: 2.5em;
+}
+
+
+a {
+    color: rgba(33, 33, 33, 1.0);
+    text-decoration: none;
+}
+
+    a:hover, a:visited, a:active, a:focus {
+        color: rgba(33, 33, 33, 0.3);
+        text-decoration: none;
+    }
+
+.text-block a {
+    color: rgba(33, 33, 33, 0.3);
+    text-decoration: none;
+}
+
+    .text-block a:hover, .text-block a:visited, .text-block a:active, .text-block a:focus {
+        color: rgba(33, 33, 33, 1.0);
+        text-decoration: none;
+    }
+
+.social-block {
+    padding: 17px;
+    text-align: center;
+    display: inline-flex;
+    align-content: center;
+    margin: 10px;
+}
+
+i {
+    padding: 9px;
+}
+
+.fa-facebook-f {
+    font-size: 18px;
+}
+
+.fa-instagram {
+    font-size: 22px;
+}
+
+/*-- End Site Styling --*/
