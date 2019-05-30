@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{A6E83625-C8E9-4A6A-8E0C-C90EC7E209ED}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="portfolio/style.css">
     <Files>
-      <File FileName="portfolio/index.html" Line="3" Column="1" />
-      <File FileName="portfolio/style.css" Line="143" Column="2" />
+      <File FileName="portfolio/index.html" Line="44" Column="86" />
+      <File FileName="portfolio/style.css" Line="114" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
