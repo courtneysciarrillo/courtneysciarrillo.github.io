@@ -88,26 +88,28 @@ a {
     }
 
 .social-block {
-    padding: 17px;
+    padding: 5px;
     text-align: center;
-    display: inline-flex;
-    align-content: center;
-    margin: 10px;
+    margin: 5px;
 }
 
-i {
-    padding: 9px;
+.social-block [class*="fab fa-"] {
+    background-color: #212121;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 30px;
+    font-size: 16px;
+    text-align: center;
 }
 
-.fa-facebook-f {
-    font-size: 18px;
-}
-
-.fa-instagram {
-    font-size: 22px;
-}
-
-
+    .social-block [class*="fab fa-"]:hover {
+        background-color: #fff;
+        color: #212121;
+    }
 
 @media only screen and (max-width: 600px) {
      /*Extra small devices (phones, 600px and down)*/ 
